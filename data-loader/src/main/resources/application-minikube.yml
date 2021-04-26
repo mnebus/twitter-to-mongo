@@ -1,0 +1,2 @@
+mongodb:
+  uri: "mongodb://root:letMeIn!@mongodb.twitter2mongo.example:32017/twitter?authSource=admin&retryWrites=true&w=majority"

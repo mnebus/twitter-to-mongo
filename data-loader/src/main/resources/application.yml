@@ -1,0 +1,25 @@
+micronaut:
+  application:
+    name: twitterIngestor
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+        descriptions: true
+        step: PT1M
+    enabled: true
+
+endpoints:
+  prometheus:
+    sensitive: false
+
+kafka:
+  bootstrap:
+    servers: localhost:9092,kafka-0.kafka.twitter2mongo.example:30094
+
+mongodb:
+  uri: "mongodb://root:letMeIn!@localhost:27017/twitter?authSource=admin&retryWrites=true&w=majority"
+
+data-loader:
+  source:
+    topic: 'twitter-tweets'

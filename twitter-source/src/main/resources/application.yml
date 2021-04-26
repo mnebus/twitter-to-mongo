@@ -1,0 +1,28 @@
+micronaut:
+  application:
+    name: twitterIngestor
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+        descriptions: true
+        step: PT1M
+    enabled: true
+
+endpoints:
+  prometheus:
+    sensitive: false
+
+kafka:
+  bootstrap:
+    servers: localhost:9092,kafka-0.kafka.twitter2mongo.example:30094
+
+twitter-source:
+  topic: 'twitter-tweets'
+
+twitter:
+  api-key: "override with env TWITTER_API_KEY"
+  api-key-secret: "override with env TWITTER_API_KEY_SECRET"
+  access-token: "override with env TWITTER_ACCESS_TOKEN"
+  access-token-secret: "override with env TWITTER_ACCESS_TOKEN_SECRET"
+  keywords: "java, programming, kafka"

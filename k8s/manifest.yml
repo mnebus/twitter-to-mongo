@@ -1,0 +1,120 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-loader
+  labels:
+    app: data-loader
+spec:
+  selector:
+    matchLabels:
+      app: data-loader
+  template:
+    metadata:
+      labels:
+        app: data-loader
+    spec:
+      containers:
+        - name: data-loader
+          image: data-loader
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: MONGODB_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: mongodb-root-password
+                  name: mongo-mongodb
+            - name: MONGODB_URI
+              value: mongodb://root:$(MONGODB_ROOT_PASSWORD)@mongo-mongodb:27017/twitter?authSource=admin&retryWrites=true&w=majority
+            - name: KAFKA_BOOTSTRAP_SERVERS
+              valueFrom:
+                configMapKeyRef:
+                  key: kafka.bootstrap.servers
+                  name: kafka-configmap
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: data-loader-headless
+  labels:
+    app: data-loader
+spec:
+  type: ClusterIP
+  clusterIP: None
+  selector:
+    app: data-loader
+  ports:
+    - name: web
+      port: 8080
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: data-loader
+  labels:
+    release: prometheus
+spec:
+  selector:
+    matchLabels:
+      app: data-loader
+  endpoints:
+    - port: web
+      path: /prometheus
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: twitter-source
+  labels:
+    app: twitter-source
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: twitter-source
+  template:
+    metadata:
+      labels:
+        app: twitter-source
+    spec:
+      containers:
+        - name: twitter-source
+          image: "twitter-source"
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: TWITTER_KEYWORDS
+              value: java,programming,kafka
+            - name: MICRONAUT_ENVIRONMENTS
+              value: fake-twitter
+            - name: KAFKA_BOOTSTRAP_SERVERS
+              valueFrom:
+                configMapKeyRef:
+                  name: kafka-configmap
+                  key: kafka.bootstrap.servers
+            - name: TWITTER_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: twitter-secret
+                  key: twitter.api.key
+            - name: TWITTER_API_KEY_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: twitter-secret
+                  key: twitter.api.key.secret
+            - name: TWITTER_ACCESS_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  key: twitter.access.token
+                  name: twitter-secret
+            - name: TWITTER_ACCESS_TOKEN_SECRET
+              valueFrom:
+                secretKeyRef:
+                  key: twitter.access.token.secret
+                  name: twitter-secret
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kafka-configmap
+data:
+  kafka.bootstrap.servers: kafka:9092
+

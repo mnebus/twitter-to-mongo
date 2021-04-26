@@ -1,0 +1,568 @@
+{
+  "created_at": "Mon Apr 12 23:29:25 +0000 2021",
+  "id": 1381751336765517826,
+  "id_str": "1381751336765517826",
+  "text": "RT @Fisheyebox: Cloud Fact\n\n#Music #AI #DataScience #MachineLearning #CloudComputing #futureofwork #DataScientist #BigData #IIoT #selfdrivi\u2026",
+  "source": "\u003ca href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 35604893,
+    "id_str": "35604893",
+    "name": "Greene Cyber security Solutions",
+    "screen_name": "CyberConsulting",
+    "location": "Sacramento area",
+    "url": "https:\/\/www.greenecybersecuritysolutions.com\/",
+    "description": "It's not a matter of \"If\" you will be hacked it a matter of\" WHEN\".  Cyber Security Consultant\/Investigator for over 38 years.  I am also an artist as well.",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 2942,
+    "friends_count": 2423,
+    "listed_count": 697,
+    "favourites_count": 12519,
+    "statuses_count": 75826,
+    "created_at": "Sun Apr 26 23:52:41 +0000 2009",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "89C9FA",
+    "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme4\/bg.gif",
+    "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme4\/bg.gif",
+    "profile_background_tile": true,
+    "profile_link_color": "3B94D9",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "95E8EC",
+    "profile_text_color": "3C3940",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/537793921196118016\/SOIUrUwd_normal.jpeg",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/537793921196118016\/SOIUrUwd_normal.jpeg",
+    "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/35604893\/1510880212",
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sat Apr 10 15:54:56 +0000 2021",
+    "id": 1380912190148943874,
+    "id_str": "1380912190148943874",
+    "text": "Cloud Fact\n\n#Music #AI #DataScience #MachineLearning #CloudComputing #futureofwork #DataScientist #BigData #IIoT\u2026 https:\/\/t.co\/mfcoGPi082",
+    "display_text_range": [
+      0,
+      140
+    ],
+    "source": "\u003ca href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c\/a\u003e",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 325430154,
+      "id_str": "325430154",
+      "name": "Fisheyebox Innovation Lab",
+      "screen_name": "Fisheyebox",
+      "location": "India",
+      "url": "http:\/\/www.fisheyebox.com",
+      "description": "We love #Invention & #Innovation, work on them @FishEyeBox\u2122 | R&D, Expert in #AI #AutonomousDriving, #SelfDrivingCar, #Fintech, #Martech, #Agritech, #Healthtech",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 2180,
+      "friends_count": 1480,
+      "listed_count": 51,
+      "favourites_count": 8112,
+      "statuses_count": 9733,
+      "created_at": "Tue Jun 28 08:39:38 +0000 2011",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme4\/bg.gif",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme4\/bg.gif",
+      "profile_background_tile": false,
+      "profile_link_color": "1B95E0",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1206092231800549376\/XVZ2BlIM_normal.jpg",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1206092231800549376\/XVZ2BlIM_normal.jpg",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/325430154\/1532790272",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+      "full_text": "Cloud Fact\n\n#Music #AI #DataScience #MachineLearning #CloudComputing #futureofwork #DataScientist #BigData #IIoT #selfdrivingcars #AR\/#VR #cybersecurity #analytics #Serverless #Linux #RStats #JavaScript #ReactJS #Engineering #Python #coding #programming #100daysofcode #CodeNewbie https:\/\/t.co\/OwDJsYcaSW",
+      "display_text_range": [
+        0,
+        280
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Music",
+            "indices": [
+              12,
+              18
+            ]
+          },
+          {
+            "text": "AI",
+            "indices": [
+              19,
+              22
+            ]
+          },
+          {
+            "text": "DataScience",
+            "indices": [
+              23,
+              35
+            ]
+          },
+          {
+            "text": "MachineLearning",
+            "indices": [
+              36,
+              52
+            ]
+          },
+          {
+            "text": "CloudComputing",
+            "indices": [
+              53,
+              68
+            ]
+          },
+          {
+            "text": "futureofwork",
+            "indices": [
+              69,
+              82
+            ]
+          },
+          {
+            "text": "DataScientist",
+            "indices": [
+              83,
+              97
+            ]
+          },
+          {
+            "text": "BigData",
+            "indices": [
+              98,
+              106
+            ]
+          },
+          {
+            "text": "IIoT",
+            "indices": [
+              107,
+              112
+            ]
+          },
+          {
+            "text": "selfdrivingcars",
+            "indices": [
+              113,
+              129
+            ]
+          },
+          {
+            "text": "AR",
+            "indices": [
+              130,
+              133
+            ]
+          },
+          {
+            "text": "VR",
+            "indices": [
+              134,
+              137
+            ]
+          },
+          {
+            "text": "cybersecurity",
+            "indices": [
+              138,
+              152
+            ]
+          },
+          {
+            "text": "analytics",
+            "indices": [
+              153,
+              163
+            ]
+          },
+          {
+            "text": "Serverless",
+            "indices": [
+              164,
+              175
+            ]
+          },
+          {
+            "text": "Linux",
+            "indices": [
+              176,
+              182
+            ]
+          },
+          {
+            "text": "RStats",
+            "indices": [
+              183,
+              190
+            ]
+          },
+          {
+            "text": "JavaScript",
+            "indices": [
+              191,
+              202
+            ]
+          },
+          {
+            "text": "ReactJS",
+            "indices": [
+              203,
+              211
+            ]
+          },
+          {
+            "text": "Engineering",
+            "indices": [
+              212,
+              224
+            ]
+          },
+          {
+            "text": "Python",
+            "indices": [
+              225,
+              232
+            ]
+          },
+          {
+            "text": "coding",
+            "indices": [
+              233,
+              240
+            ]
+          },
+          {
+            "text": "programming",
+            "indices": [
+              241,
+              253
+            ]
+          },
+          {
+            "text": "100daysofcode",
+            "indices": [
+              254,
+              268
+            ]
+          },
+          {
+            "text": "CodeNewbie",
+            "indices": [
+              269,
+              280
+            ]
+          }
+        ],
+        "urls": [],
+        "user_mentions": [],
+        "symbols": [],
+        "media": [
+          {
+            "id": 1380912179000512513,
+            "id_str": "1380912179000512513",
+            "indices": [
+              281,
+              304
+            ],
+            "media_url": "http:\/\/pbs.twimg.com\/media\/Eyn8T3dWEAE1iD1.jpg",
+            "media_url_https": "https:\/\/pbs.twimg.com\/media\/Eyn8T3dWEAE1iD1.jpg",
+            "url": "https:\/\/t.co\/OwDJsYcaSW",
+            "display_url": "pic.twitter.com\/OwDJsYcaSW",
+            "expanded_url": "https:\/\/twitter.com\/Fisheyebox\/status\/1380912190148943874\/photo\/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 720,
+                "h": 709,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 670,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 709,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1380912179000512513,
+            "id_str": "1380912179000512513",
+            "indices": [
+              281,
+              304
+            ],
+            "media_url": "http:\/\/pbs.twimg.com\/media\/Eyn8T3dWEAE1iD1.jpg",
+            "media_url_https": "https:\/\/pbs.twimg.com\/media\/Eyn8T3dWEAE1iD1.jpg",
+            "url": "https:\/\/t.co\/OwDJsYcaSW",
+            "display_url": "pic.twitter.com\/OwDJsYcaSW",
+            "expanded_url": "https:\/\/twitter.com\/Fisheyebox\/status\/1380912190148943874\/photo\/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 720,
+                "h": 709,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 670,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 709,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 17,
+    "favorite_count": 12,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Music",
+          "indices": [
+            12,
+            18
+          ]
+        },
+        {
+          "text": "AI",
+          "indices": [
+            19,
+            22
+          ]
+        },
+        {
+          "text": "DataScience",
+          "indices": [
+            23,
+            35
+          ]
+        },
+        {
+          "text": "MachineLearning",
+          "indices": [
+            36,
+            52
+          ]
+        },
+        {
+          "text": "CloudComputing",
+          "indices": [
+            53,
+            68
+          ]
+        },
+        {
+          "text": "futureofwork",
+          "indices": [
+            69,
+            82
+          ]
+        },
+        {
+          "text": "DataScientist",
+          "indices": [
+            83,
+            97
+          ]
+        },
+        {
+          "text": "BigData",
+          "indices": [
+            98,
+            106
+          ]
+        },
+        {
+          "text": "IIoT",
+          "indices": [
+            107,
+            112
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https:\/\/t.co\/mfcoGPi082",
+          "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1380912190148943874",
+          "display_url": "twitter.com\/i\/web\/status\/1\u2026",
+          "indices": [
+            114,
+            137
+          ]
+        }
+      ],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [
+      {
+        "text": "Music",
+        "indices": [
+          28,
+          34
+        ]
+      },
+      {
+        "text": "AI",
+        "indices": [
+          35,
+          38
+        ]
+      },
+      {
+        "text": "DataScience",
+        "indices": [
+          39,
+          51
+        ]
+      },
+      {
+        "text": "MachineLearning",
+        "indices": [
+          52,
+          68
+        ]
+      },
+      {
+        "text": "CloudComputing",
+        "indices": [
+          69,
+          84
+        ]
+      },
+      {
+        "text": "futureofwork",
+        "indices": [
+          85,
+          98
+        ]
+      },
+      {
+        "text": "DataScientist",
+        "indices": [
+          99,
+          113
+        ]
+      },
+      {
+        "text": "BigData",
+        "indices": [
+          114,
+          122
+        ]
+      },
+      {
+        "text": "IIoT",
+        "indices": [
+          123,
+          128
+        ]
+      }
+    ],
+    "urls": [],
+    "user_mentions": [
+      {
+        "screen_name": "Fisheyebox",
+        "name": "Fisheyebox Innovation Lab",
+        "id": 325430154,
+        "id_str": "325430154",
+        "indices": [
+          3,
+          14
+        ]
+      }
+    ],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1618270165040"
+}
