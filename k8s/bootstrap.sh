@@ -4,7 +4,7 @@ _SCRIPT_PATH="$(cd ${0%/*} && pwd)"
 cd $_SCRIPT_PATH
 
 
-source etc/.settings
+source etc/.environment-settings
 
 etc/init-minikube.sh
 

@@ -3,7 +3,7 @@
 _SCRIPT_PATH="$(cd ${0%/*} && pwd)"
 cd $_SCRIPT_PATH
 
-source .settings
+source .environment-settings
 
 #### add prometheus
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts

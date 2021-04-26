@@ -3,7 +3,7 @@
 _SCRIPT_PATH="$(cd ${0%/*} && pwd)"
 cd $_SCRIPT_PATH
 
-source .settings
+source .environment-settings
 
 echo "This script requires elevated privileges in order to configure files in /etc/resolver/"
 sudo echo "elevated privileges enabled"

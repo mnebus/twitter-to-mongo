@@ -102,11 +102,13 @@ public class FakeTwitterFeed extends TwitterFeed {
         }
 
         String generateTweet() {
+            Instant now = Instant.now();
+            String idStr = now.getEpochSecond() + Long.toString(now.getNano());
             Tweet tweet = Tweet.builder()
                     .user(fakeUsers.get(new java.util.Random().nextInt(1000)))
                     .created_at(Instant.now().toString())
-                    .id(tweetIndex.incrementAndGet())
-                    .id_str(Long.toString(tweetIndex.get()))
+                    .id(Long.valueOf(idStr))
+                    .id_str(idStr)
                     .source("FakeTwitterGenerator")
                     .text(MarkovChain.markov(4, 8))
                     .build();

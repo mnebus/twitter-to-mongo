@@ -3,7 +3,7 @@
 _SCRIPT_PATH="$(cd ${0%/*} && pwd)"
 cd $_SCRIPT_PATH
 
-source .settings
+source .environment-settings
 
 #########################################################
 # This script installs mongodb and kafka and
