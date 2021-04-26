@@ -67,7 +67,7 @@ public class FakeTwitterFeed extends TwitterFeed {
                         .screen_name(generateUserName(name))
                         .id(tweetIndex.incrementAndGet())
                         .id_str(Long.toString(idCounter))
-                        .description(MarkovChain.markov(1,5))
+                        .description(MarkovChain.markov(1, 5))
                         .build());
             }
 
@@ -89,13 +89,15 @@ public class FakeTwitterFeed extends TwitterFeed {
 
         @Override
         public void run() {
-            while(!shutdown) {
-                Instant before = Instant.now();
-                fakeTwitterFeed.getMsgQueue().add(generateTweet());
+            while (!shutdown) {
                 try {
+                    Instant before = Instant.now();
+                    fakeTwitterFeed.getMsgQueue().add(generateTweet());
                     Thread.sleep(1000 - (Instant.now().minusMillis(before.toEpochMilli())).toEpochMilli());
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
+                } catch (RuntimeException e) {
+                    logger.warn("Exception while generating tweet", e);
                 }
             }
 
