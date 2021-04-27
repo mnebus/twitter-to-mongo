@@ -1,16 +1,15 @@
 # How to use/deploy to kubernetes locally
 ## Requirements
- * minikube
-   * `minikube start --memory 9216 --cpus 5 --disk-size 50g --driver hyperkit --kubernetes-version v1.17.17`
+ * minikube   
  * helm 3
 
 ### Run the bootstrap script
 You should only need to do this one time prior to the first time you run the application.
-After you have started a minikube instance with the `minikube start` command, run the following:
 ```shell
 ./bootstrap.sh
 ```
 This will:
+ * start a new minikube profile
  * create a new context and namespace in minikube
  * install kafka and mongodb
  * generate the twitter secret
